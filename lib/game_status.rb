@@ -46,7 +46,7 @@ end
 
 
 def draw?(array)
-  if (full?(array) == true) && ( won?(array) == nil) 
+  if (full?(array) == true) && ( won?(array) == false) 
     return true
   else 
     return false
